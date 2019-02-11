@@ -1,18 +1,23 @@
-version: 2
+
+version: 2.0
+
 jobs:
-  build:
-    docker:
-       - image: mcr.microsoft.com/windows/servercore:ltsc2019
 
-    steps:
-      - checkout
+    build:
 
-      - run:
-          name: Greeting
-          command: dir
+        working_directory: ~/psstringtemplate
 
-      - run:
-          name: Print the Current Time
-          command: date
-	
+        docker:
+
+            - image: microsoft/powershell@sha256:6d36c498c1fdbb3ef42acabea1d06b12870e390fd3053993974ebaa6ba507849
+
+        steps:
+
+            - checkout
+
+            - run:
+
+                name: Run build script
+
+                command: 'powershell -File ./tools/test.ps1'
       
