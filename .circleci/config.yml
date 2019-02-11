@@ -16,7 +16,5 @@ jobs:
           command: date
 
      - run:
-
-                name: Run build script
-
-                command: 'powershell -File ./tools/test.ps1'
+         name: Run build script
+         command: 'powershell -File ./tools/test.ps1'
