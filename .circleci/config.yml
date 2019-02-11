@@ -2,14 +2,14 @@ version: 2
 jobs:
   build:
     docker:
-      - image: debian:stretch
+      - image: microsoft/powershell@sha256:6d36c498c1fdbb3ef42acabea1d06b12870e390fd3053993974ebaa6ba507849
 
     steps:
       - checkout
 
       - run:
           name: Greeting
-          command: echo Hello, world.
+          command: dir
 
       - run:
           name: Print the Current Time
