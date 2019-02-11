@@ -2,6 +2,7 @@ version: 2
 jobs:
   build:
     docker:
+      working_directory: ~/tools
       - image: microsoft/powershell@sha256:6d36c498c1fdbb3ef42acabea1d06b12870e390fd3053993974ebaa6ba507849
 
     steps:
@@ -14,3 +15,7 @@ jobs:
       - run:
           name: Print the Current Time
           command: date
+	
+       - run:
+          name: Run build script
+          command: 'powershell -File ./tools/test.ps1'	
