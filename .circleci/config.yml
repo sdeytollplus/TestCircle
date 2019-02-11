@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-       - image: microsoft.com/windows/servercore:1809_amd64
+       - image: mcr.microsoft.com/windows/servercore:ltsc2019
 
     steps:
       - checkout
