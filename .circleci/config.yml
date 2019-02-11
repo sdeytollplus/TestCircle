@@ -14,7 +14,3 @@ jobs:
       - run:
           name: Print the Current Time
           command: date
-
-     - run:
-         name: Run build script
-         command: 'powershell -File ./tools/test.ps1'
