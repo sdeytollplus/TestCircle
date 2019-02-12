@@ -35,6 +35,8 @@ jobs:
             pwd
             ls -l
             cd tools
+            ls -l
+            pwd
        
      
              
