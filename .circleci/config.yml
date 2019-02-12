@@ -22,14 +22,16 @@ jobs:
           name: Install things we need
 
           command: |
-
+           
+           echo $CIRCLE_WORKING_DIRECTORY
+           echo $HOME
             uname -srm            
             cat /etc/issue
             apt-get update && apt-get install -y sudo && rm -rf /var/lib/apt/lists/*
 
             #pwsh -File  ./tools/first.ps1
             pwsh -Version
-            pwsh -WorkingDirectory ~/tools
+            #pwsh -WorkingDirectory ~/tools
             pwd
      
              
