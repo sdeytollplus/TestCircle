@@ -23,7 +23,7 @@ jobs:
 
           command: |
            
-           echo $CIRCLE_WORKING_DIRECTORY
+           
            echo $HOME
             uname -srm            
             cat /etc/issue
@@ -33,6 +33,15 @@ jobs:
             pwsh -Version
             #pwsh -WorkingDirectory ~/tools
             pwd
+            
+      - run:
+          name: "What was my custom environment variable?"    
+            command: echo $CIRCLE_WORKING_DIRECTORY
+            
+        - run:
+          name: "What was my custom environment variable?"    
+            command: echo $HOME
+         
      
              
 
