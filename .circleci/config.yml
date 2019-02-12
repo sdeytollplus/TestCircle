@@ -38,6 +38,7 @@ jobs:
             ls -l
             pwd
             pwsh test.ps1
+            pwsh Install-Module -Name AzureRM -RequiredVersion 2.4.0 -Repository PSGallery -Force
        
      
              
