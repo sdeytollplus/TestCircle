@@ -1,14 +1,26 @@
-
-version: 1.0
+version: 2
 
 jobs:
-  build: 
-    machine: 
-      image: circleci/classic:201708-01 # VM will run Ubuntu 14.04 for this release da
-      steps:
 
-            - checkout
+  build:
 
-            - run:
+    docker:
 
-                name: Run build script
+      # specify the version you desire here
+
+      - image: buildpack-deps:latest
+
+        
+
+    steps:
+
+      - checkout
+
+      - run:
+
+          name: Install things we need
+
+          command: |
+
+            uname -srm
+
