@@ -23,4 +23,6 @@ jobs:
           command: |
 
             uname -srm
+            
+            lsb_release -a
 
