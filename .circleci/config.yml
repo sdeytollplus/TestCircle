@@ -26,9 +26,10 @@ jobs:
             cat /etc/issue
             apt-get update && apt-get install -y sudo && rm -rf /var/lib/apt/lists/*
             
-           
+       run:
+           name: Powershell
 
-             'powershell -File ./tools/test.ps1'
+             'pwsh -File ./tools/test.ps1'
 
 
 
