@@ -1,12 +1,11 @@
 
-version: 2.0
+version: 1.0
 
 jobs:
-  build: # name of your job
-    docker: # executor type
-      - image: buildpack-deps:trusty
-
-        steps:
+  build: 
+    machine: 
+      image: circleci/classic:201708-01 # VM will run Ubuntu 14.04 for this release da
+      steps:
 
             - checkout
 
