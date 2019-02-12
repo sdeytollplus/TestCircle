@@ -27,8 +27,8 @@ jobs:
             cat /etc/issue
             apt-get update && apt-get install -y sudo && rm -rf /var/lib/apt/lists/*
 
-            pwsh -File  ./tools/first.ps1
-            
+            #pwsh -File  ./tools/first.ps1
+            pwsh -Command {Get-Command -Name Get-Item}
      
              
 
