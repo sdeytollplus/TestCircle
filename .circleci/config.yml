@@ -27,11 +27,11 @@ jobs:
             apt-get update && apt-get install -y sudo && rm -rf /var/lib/apt/lists/*
             
       - run:
-           name: Powershell
+           name: PowershellBlock
            
            command: |
 
-             'pwsh -File ./tools/test.ps1'
+             'powershell -File ./tools/test.ps1'
 
 
 
