@@ -30,9 +30,9 @@ jobs:
       - run:
            name: PowershellBlock
            
-           command: |
+          command: 'powershell -File ./tools/test.ps1'
 
-             'pwsh  ./tools/test.ps1'
+             
 
 
 
