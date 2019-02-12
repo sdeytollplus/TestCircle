@@ -27,7 +27,7 @@ jobs:
             cat /etc/issue
             # Install system components
            apt-get update
-           apt-get install sudo
+   
 
 
 
