@@ -37,6 +37,7 @@ jobs:
             cd tools
             ls -l
             pwd
+            pwsh test.ps1
        
      
              
