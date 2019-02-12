@@ -8,7 +8,7 @@ jobs:
 
       # specify the version you desire here
 
-      - image: buildpack-deps:latest
+      - image: buildpack-deps:disco
 
         
 
@@ -26,7 +26,7 @@ jobs:
             
             cat /etc/issue
             # Install system components
-           apt-get update
+           sudo apt-get update
    
 
 
