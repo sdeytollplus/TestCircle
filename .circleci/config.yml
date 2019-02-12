@@ -35,11 +35,11 @@ jobs:
             pwd
             
       - run:
-          name: "What was my custom environment variable1"    
+          name: What was my custom environment variable1 
             command: echo $CIRCLE_WORKING_DIRECTORY
             
         - run:
-          name: "What was my custom environment variable2"    
+          name: What  custom environment variable2 
             command: echo $HOME
          
      
