@@ -29,6 +29,8 @@ jobs:
 
             #pwsh -File  ./tools/first.ps1
             pwsh -Version
+            pwsh -WorkingDirectory ~/tools
+            pwd
      
              
 
