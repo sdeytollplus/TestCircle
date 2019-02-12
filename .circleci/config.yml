@@ -22,10 +22,9 @@ jobs:
 
           command: |
 
-            uname -srm
-            
+            uname -srm            
             cat /etc/issue
-            # Install system components
+            sudo apt-get update
       
    
 
