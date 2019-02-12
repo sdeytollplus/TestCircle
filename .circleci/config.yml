@@ -26,8 +26,9 @@ jobs:
             
             cat /etc/issue
             # Install system components
-            su apt-get update
-            su apt-get install curl gnupg apt-transport-https
+           apt-get update
+           apt-get install sudo
+
 
 
             
