@@ -25,4 +25,8 @@ jobs:
             uname -srm
             
             cat /etc/issue
+            
+            sudo dpkg -i powershell_6.1.0-1.ubuntu.18.04_amd64.deb
+            sudo apt-get install -f
+            pwsh
 
