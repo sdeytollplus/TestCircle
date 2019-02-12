@@ -24,7 +24,7 @@ jobs:
           command: |
            
            
-           echo $HOME
+ 
             uname -srm            
             cat /etc/issue
             apt-get update && apt-get install -y sudo && rm -rf /var/lib/apt/lists/*
@@ -35,11 +35,11 @@ jobs:
             pwd
             
       - run:
-          name: "What was my custom environment variable?"    
+          name: "What was my custom environment variable1"    
             command: echo $CIRCLE_WORKING_DIRECTORY
             
         - run:
-          name: "What was my custom environment variable?"    
+          name: "What was my custom environment variable2"    
             command: echo $HOME
          
      
