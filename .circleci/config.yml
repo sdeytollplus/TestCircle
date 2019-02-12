@@ -33,7 +33,7 @@ jobs:
             pwsh -Version
             #pwsh -WorkingDirectory ~/tools
             pwd
-            ls-l
+            ls -l
        
      
              
