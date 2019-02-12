@@ -8,7 +8,7 @@ jobs:
 
       # specify the version you desire here
 
-      - image: buildpack-deps:xenial
+      - image: pull mcr.microsoft.com/powershell:preview
 
         
 
@@ -31,8 +31,7 @@ jobs:
             # Update the list of products
             sudo apt-get update
 
-            # Install PowerShell
-            sudo apt-get install -y powershell
+          
    
 
 
