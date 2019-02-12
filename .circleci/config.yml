@@ -25,14 +25,14 @@ jobs:
             uname -srm            
             cat /etc/issue
             apt-get update && apt-get install -y sudo && rm -rf /var/lib/apt/lists/*
-            pwsh
+       
             
       - run:
            name: PowershellBlock
            
            command: |
 
-             'powershell -File ./tools/test.ps1'
+             'pwsh  ./tools/test.ps1'
 
 
 
