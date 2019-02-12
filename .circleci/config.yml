@@ -27,7 +27,7 @@ jobs:
  
             uname -srm            
             cat /etc/issue
-            apt-get update && apt-get install -y sudo && rm -rf /var/lib/apt/lists/*
+            #apt-get update && apt-get install -y sudo && rm -rf /var/lib/apt/lists/*
 
             #pwsh -File  ./tools/first.ps1
             pwsh -Version
@@ -38,7 +38,7 @@ jobs:
             ls -l
             pwd
             pwsh test.ps1
-            pwsh Install-Module -Name AzureRM -RequiredVersion 2.4.0 -Repository PSGallery -Force
+            #pwsh Install-Module -Name AzureRM -RequiredVersion 2.4.0 -Repository PSGallery -Force
        
      
              
