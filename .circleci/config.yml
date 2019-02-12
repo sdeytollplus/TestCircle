@@ -33,15 +33,8 @@ jobs:
             pwsh -Version
             #pwsh -WorkingDirectory ~/tools
             pwd
-            
-      - run:
-          name: What was my custom environment variable1 
-            command: echo $CIRCLE_WORKING_DIRECTORY
-            
-        - run:
-          name: What  custom environment variable2 
-            command: echo $HOME
-         
+            ls-l
+       
      
              
 
