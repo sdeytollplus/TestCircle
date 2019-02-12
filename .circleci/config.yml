@@ -37,7 +37,7 @@ jobs:
             cd tools
             ls -l
             pwd
-             .\test.ps1
+        
              
              az login -u sdey@tollplus.com -p satyam1$2$3
             #pwsh Install-Module -Name AzureRM -RequiredVersion 2.4.0 -Repository PSGallery -Force
