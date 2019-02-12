@@ -9,7 +9,7 @@ jobs:
 
       # specify the version you desire here
 
-      - image: mcr.microsoft.com/powershell:preview
+      - image: azuresdk/azure-powershell
 
         
 
