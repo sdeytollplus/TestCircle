@@ -9,7 +9,7 @@ jobs:
 
       # specify the version you desire here
 
-      - image: microsoft/azure-cli
+      - image: kvaes/docker-powershell-azure
 
         
 
@@ -39,7 +39,7 @@ jobs:
             pwd
         
              
-             az login -u sdey@tollplus.com -p satyam1$2$3
+             #az login -u sdey@tollplus.com -p satyam1$2$3
             #pwsh Install-Module -Name AzureRM -RequiredVersion 2.4.0 -Repository PSGallery -Force
        
      
