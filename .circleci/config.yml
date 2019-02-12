@@ -9,7 +9,7 @@ jobs:
 
       # specify the version you desire here
 
-      - image: azuresdk/azure-powershell
+      - image: microsoft/azure-cli
 
         
 
