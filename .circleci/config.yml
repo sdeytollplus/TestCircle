@@ -37,7 +37,7 @@ jobs:
             cd tools
             ls -l
             pwd
-           powershell get-command *azure*”
+           powershell 
         
              
              #az login -u sdey@tollplus.com -p satyam1$2$3
