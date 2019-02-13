@@ -17,6 +17,9 @@ Clear-Host
      
 get-content -Path "/root/project/tools/profile.json"
   Select-AzureRmProfile -Path "/root/project/tools/profile.json"
+  
+  Get-Azurermtenant
+
   $azureAccountName ="sdey@tollplus.com"
 $azurePassword = ConvertTo-SecureString "satyam1$2$3" -AsPlainText -Force
 
