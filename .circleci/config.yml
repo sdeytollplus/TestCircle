@@ -21,8 +21,10 @@ jobs:
 
           name: Install things we need
           command: |
-          apt-get install -y git
-          git clone https://coditapi.scm.azure-api.net/
+          cat /etc/issue
+          apt-get update && apt-get install -y sudo && rm -rf /var/lib/apt/lists/*
+          sudo apt-get install -y git
+          sudo git clone https://coditapi.scm.azure-api.net/
          # command: 'powershell -File ./tools/test.ps1' 
           
       - run:
