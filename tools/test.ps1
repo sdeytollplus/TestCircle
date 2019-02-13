@@ -16,7 +16,7 @@ Import-Module AzureRM.Resources.NetCore.Preview
      
      
 
-  Select-AzureRmProfile -Path '/root/project/tools/profile.json' 
+  Select-AzureRmProfile -Path "/root/project/tools/profile.json"
   $azureAccountName ="sdey@tollplus.com"
 $azurePassword = ConvertTo-SecureString "satyam1$2$3" -AsPlainText -Force
 
