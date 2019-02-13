@@ -26,7 +26,8 @@ jobs:
 
           name: Powershell
 
-          command: 'powershell Install-Module -Name AzureRM -force '   
+          command: 'Connect-AzAccount'
+
                     
            
            
