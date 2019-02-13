@@ -1,7 +1,7 @@
 Clear-Host
 $Host
 
-Install-Module -Name AzureRM.Profile.Netcore -RequiredVersion 0.9.1
+Install-Module -Name AzureRM.Profile.Netcore -RequiredVersion 0.9.1 -force
 Import-Module AzureRM.NetCore.Preview 
 #Import-Module AzureRM.Profile.NetCore.Preview
 Import-Module AzureRM.Resources.NetCore.Preview
