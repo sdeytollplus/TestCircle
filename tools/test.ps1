@@ -9,7 +9,7 @@ Invoke-AzureRmResourceAction  -ResourceGroupName $resourceGroupName -ResourceTyp
      Import-Module AzureRM.NetCore.Preview 
      
      
-dir 
+
   Select-AzureRmProfile -Path '/root/project/tools/profile.json'     
    
  # Login-AzureRMAccount 
