@@ -3,7 +3,7 @@ $Host
 
 Install-Module -Name AzureRM.Profile.Netcore -RequiredVersion 0.9.1 -force
 Import-Module AzureRM.NetCore.Preview 
-#Import-Module AzureRM.Profile.NetCore.Preview
+Import-Module AzureRM.Profile.NetCore
 Import-Module AzureRM.Resources.NetCore.Preview
 #Install-Module AzureRM.Profile.Netcore
 
@@ -29,7 +29,7 @@ $azurePassword = ConvertTo-SecureString "satyam1$2$3" -AsPlainText -Force
 $psCred = New-Object System.Management.Automation.PSCredential($azureAccountName, $azurePassword)
 $psCred = New-Object System.Management.Automation.PSCredential($azureAccountName, $azurePassword)
 
-#Login-AzureRmAccount -Credential $psCred
+Login-AzureRmAccount -Credential $psCred
    
  # Login-AzureRMAccount 
 #$pwUrlencodedLowerCase = [System.Web.HttpUtility]::UrlEncode($pw.value)
