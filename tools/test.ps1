@@ -10,7 +10,13 @@ Import-Module AzureRM.NetCore.Preview
      
      
 
-  Select-AzureRmProfile -Path '/root/project/tools/profile.json'     
+  #Select-AzureRmProfile -Path '/root/project/tools/profile.json' 
+  $azureAccountName ="sdey@tollplus.com"
+$azurePassword = ConvertTo-SecureString "satyam1$2$3" -AsPlainText -Force
+
+$psCred = New-Object System.Management.Automation.PSCredential($azureAccountName, $azurePassword)
+
+Login-AzureRmAccount -Credential $psCred
    
  # Login-AzureRMAccount 
 #$pwUrlencodedLowerCase = [System.Web.HttpUtility]::UrlEncode($pw.value)
