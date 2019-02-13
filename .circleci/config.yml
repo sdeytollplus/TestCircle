@@ -21,7 +21,7 @@ jobs:
           name: Install things we need
 
           command: |
-      
+              cat /etc/issue
            
            
  
