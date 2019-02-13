@@ -10,7 +10,7 @@ Invoke-AzureRmResourceAction  -ResourceGroupName $resourceGroupName -ResourceTyp
      
      
 # get-childitem
-  import-AzureRmcontext -Path "/root/project/tools/profile1.json"        
+  Select-AzureRmProfile -Path "/root/project/tools/profile1.json"        
    
  # Login-AzureRMAccount 
 #$pwUrlencodedLowerCase = [System.Web.HttpUtility]::UrlEncode($pw.value)
