@@ -21,6 +21,12 @@ jobs:
           name: Install things we need
 
           command: 'powershell -File ./tools/test.ps1' 
+          
+      - run:
+
+          name: Powershell
+
+          command: cat /etc/issue     
                     
            
            
