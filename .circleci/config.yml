@@ -26,7 +26,7 @@ jobs:
 
           name: Powershell
 
-          command: cat /etc/issue     
+          command: 'powershell Install-Module -Name AzureRM  '   
                     
            
            
