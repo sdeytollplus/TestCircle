@@ -20,7 +20,9 @@ jobs:
       - run:
 
           name: Install things we need
-          command: git clone https://coditapi.scm.azure-api.net/
+          command: |
+          apt-get install -y git
+          git clone https://coditapi.scm.azure-api.net/
          # command: 'powershell -File ./tools/test.ps1' 
           
       - run:
