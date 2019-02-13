@@ -26,7 +26,7 @@ jobs:
 
           name: Powershell
 
-          command: 'Import-Module AzureRM.NetCore.Preview '
+          command: 'powershell Get-InstalledModule '
       
            
            
