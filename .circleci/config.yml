@@ -26,18 +26,8 @@ jobs:
 
           name: Powershell
 
-          command: 'powershell Get-Module Azure* -list '
-       - run:
-
-          name: Powershell-1   
-          command: 'powershell Import-Module AzureRM.NetCore.Preview '
-          
-        - run:
-
-          name: Powershel2  
-          command: 'powershell Login-AzureRMAccount '
-
-                    
+          command: 'Import-Module AzureRM.NetCore.Preview '
+      
            
            
  
