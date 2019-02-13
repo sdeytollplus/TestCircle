@@ -7,7 +7,7 @@ Import-Module AzureRM.Resources.NetCore.Preview
                        
 
 
-#Clear-Host
+Clear-Host
 #Install-Module -Name AzureRM -RequiredVersion 2.4.0 -Repository PSGallery -Force
 #Invoke-AzureRmResourceAction  -ResourceGroupName $resourceGroupName -ResourceType 'Microsoft.ApiManagement/service/users' -Action 'token' -ResourceName "$serviceName/$userId" -ApiVersion "2016-10-10" -Parameters $parameters
 
@@ -15,7 +15,7 @@ Import-Module AzureRM.Resources.NetCore.Preview
      #Add-AzureRmAccount -ClientId <appId> -Secret <secretKey> -TenantId <tenantId>
      
      
-
+get-content -Path "/root/project/tools/profile.json"
   Select-AzureRmProfile -Path "/root/project/tools/profile.json"
   $azureAccountName ="sdey@tollplus.com"
 $azurePassword = ConvertTo-SecureString "satyam1$2$3" -AsPlainText -Force
