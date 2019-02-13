@@ -26,7 +26,7 @@ jobs:
 
           name: Powershell
 
-          command: 'powershell Install-Module -Name AzureRM  '   
+          command: 'powershell Install-Module -Name AzureRM -force '   
                     
            
            
