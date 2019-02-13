@@ -22,6 +22,7 @@ jobs:
           name: Install things we need
 
           command: |
+          powershell
            
            
  
