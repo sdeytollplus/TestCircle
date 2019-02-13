@@ -10,8 +10,7 @@ jobs:
       # specify the version you desire here
 
       - image: kvaes/docker-powershell-azure
-
-        
+       
 
     steps:
 
@@ -22,7 +21,7 @@ jobs:
           name: Install things we need
 
           command: |
-          uname -srm 
+      
            
            
  
