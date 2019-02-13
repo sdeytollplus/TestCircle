@@ -26,7 +26,7 @@ jobs:
 
           name: Powershell
 
-          command: 'powershell Get-Module Azure* -list | Select-Object Name,Version,Path'
+          command: 'powershell Get-Module Azure* -list '
 
                     
            
