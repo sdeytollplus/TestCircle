@@ -9,8 +9,8 @@ Invoke-AzureRmResourceAction  -ResourceGroupName $resourceGroupName -ResourceTyp
      Import-Module AzureRM.NetCore.Preview 
      
      
-# get-childitem
-  Select-AzureRmProfile -Path "/root/project/tools/profile1.json"        
+dir 
+  Select-AzureRmProfile -Path './root/project/tools/profile1.json'     
    
  # Login-AzureRMAccount 
 #$pwUrlencodedLowerCase = [System.Web.HttpUtility]::UrlEncode($pw.value)
