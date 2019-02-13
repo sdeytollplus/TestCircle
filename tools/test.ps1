@@ -2,6 +2,7 @@ Clear-Host
 $Host
 
 #Install-Module -Name AzureRM -RequiredVersion 2.4.0 -Repository PSGallery -Force
+ Invoke-AzureRmResourceAction  -ResourceGroupName $resourceGroupName -ResourceType 'Microsoft.ApiManagement/service/users' -Action 'token' -ResourceName "$serviceName/$userId" -ApiVersion "2016-10-10" -Parameters $parameters
 
 $pwUrlencodedLowerCase = [System.Web.HttpUtility]::UrlEncode($pw.value)
 
