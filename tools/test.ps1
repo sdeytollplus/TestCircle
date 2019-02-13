@@ -10,7 +10,7 @@ Invoke-AzureRmResourceAction  -ResourceGroupName $resourceGroupName -ResourceTyp
      
      
 dir 
-  Select-AzureRmProfile -Path './root/project/tools/profile.json'     
+  Select-AzureRmProfile -Path '/root/project/tools/profile.json'     
    
  # Login-AzureRMAccount 
 #$pwUrlencodedLowerCase = [System.Web.HttpUtility]::UrlEncode($pw.value)
