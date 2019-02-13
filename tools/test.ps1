@@ -7,7 +7,7 @@ Import-Module AzureRM.NetCore.Preview
 Invoke-AzureRmResourceAction  -ResourceGroupName $resourceGroupName -ResourceType 'Microsoft.ApiManagement/service/users' -Action 'token' -ResourceName "$serviceName/$userId" -ApiVersion "2016-10-10" -Parameters $parameters
 
      Import-Module AzureRM.NetCore.Preview 
-     ls-l
+ get-childitem
           
    
  # Login-AzureRMAccount 
