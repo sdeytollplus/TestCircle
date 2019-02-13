@@ -26,7 +26,7 @@ jobs:
 
           name: Powershell
 
-          command: 'powershell Get-InstalledModule '
+          command: 'powershell Get-Module -Name AzureRM* -ListAvailable '
       
            
            
