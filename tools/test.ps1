@@ -3,6 +3,7 @@ $Host
 Import-Module AzureRM.NetCore.Preview 
 Import-Module AzureRM.Profile.NetCore.Preview
 Import-Module AzureRM.Resources.NetCore.Preview
+Install-Module AzureRM.Profile.Netcore
 
                        
 
