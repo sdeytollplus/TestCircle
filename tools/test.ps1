@@ -1,6 +1,8 @@
 Clear-Host
 $Host
 Import-Module AzureRM.NetCore.Preview 
+Import-Module AzureRM.Profile.NetCore.Preview
+Import-Module AzureRM.Resources.NetCore.Preview
 
 Clear-Host
 #Install-Module -Name AzureRM -RequiredVersion 2.4.0 -Repository PSGallery -Force
