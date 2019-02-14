@@ -8,8 +8,7 @@ jobs:
       - run: 
           name: Install things we need
           command: 'powershell -File ./tools/test.ps1'          
-          
-    - run:
+      - run:
           name: Powershell
           command: 'powershell Get-Module -Name AzureRM* -ListAvailable '
             
