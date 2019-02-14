@@ -23,9 +23,10 @@ jobs:
                     cd ~/project/replica1
                      ls
                     pwd
-                    #git remote rm origin
-                    #git remote add myserver ssh:ssh://sdey@github.com/sdeytollplus/TestVSTS.git
-                   # git push myserver HEAD: master
+                    git init
+                    git remote rm origin
+                    git remote add myserver ssh:ssh://sdey@github.com/sdeytollplus/TestVSTS.git
+                   git push myserver 
                     
                
             
