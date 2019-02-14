@@ -11,6 +11,14 @@ jobs:
       - run:
           name: Powershell
           command: 'powershell Get-Module -Name AzureRM* -ListAvailable '
+      - run:
+          name: Git1
+          command: |
+                    apt-get update && apt-get install -y sudo && rm -rf /var/lib/apt/lists/*
+                    sudo apt-get update
+                    sudo apt-get install -y git
+                    
+               
             
         
              
