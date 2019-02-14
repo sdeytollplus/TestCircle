@@ -12,24 +12,16 @@ jobs:
       - image: kvaes/docker-powershell-azure
      # - image: twitchax/azure-powershell-core
        
-
-   
+  
       steps:
-
       - checkout
-
-      - run:
-
-          name: Install things we need
-
-          
+       - run:
+          name: Install things we need          
         
          command: 'powershell -File ./tools/test.ps1' 
           
       - run:
-
           name: Powershell
-
           command: 'powershell Get-Module -Name AzureRM* -ListAvailable '
       
            
