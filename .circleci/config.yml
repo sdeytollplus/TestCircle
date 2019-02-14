@@ -5,7 +5,9 @@ jobs:
       - image: kvaes/docker-powershell-azure
     steps:
       - checkout
-      - run: echo "A first hello"
+      - run: 
+          name: Install things we need
+          command: 'powershell -File ./tools/test.ps1' 
   
             
         
