@@ -28,7 +28,7 @@ jobs:
                     git init
                     git add *
                     git commit -a -m "hello"
-                    git remote rm origin
+                    #git remote rm origin
                     git remote add myserver ssh:ssh://sdey@github.com/sdeytollplus/TestVSTS.git
                     git push myserver 
                     
