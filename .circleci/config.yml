@@ -2,15 +2,22 @@ version: 2
 
 jobs:
 
-  build:
-  
+  build:  
     
     docker:
-
       # specify the version you desire here
-
       - image: kvaes/docker-powershell-azure
      # - image: twitchax/azure-powershell-core
+     steps:
+
+      - checkout
+        - run:
+
+          name: Install things we need
+
+          command: |
+
+            uname -srm
        
   
       
