@@ -1,22 +1,14 @@
 
-version: 2
+  
+      
+ version: 2
 jobs:
   build:
     docker:
-     # specify the version you desire here
-      - image: kvaes/docker-powershell-azure
-      steps:
+      - image: circleci/ruby:2.4.1
+    steps:
       - checkout
-        - run:
-          name: Install things we need
-          command: 'powershell -File ./tools/test.ps1' 
-          
-        - run:
-          name: Powershell
-          command: 'powershell Get-Module -Name AzureRM* -ListAvailable '
-  
-      
- 
+      - run: echo "A first hello"
             
         
              
