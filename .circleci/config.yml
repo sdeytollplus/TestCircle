@@ -29,8 +29,9 @@ jobs:
                     git add *
                     git commit -a -m "hello"
                     #git remote rm origin
-                    git remote add myserver ssh://sdey@github.com/sdeytollplus/TestVSTS.git
-                    git push myserver master
+                    #git remote add myserver ssh://sdey@github.com/sdeytollplus/TestVSTS.git
+                    #git push myserver master
+                    git push https://sdey:satyam1$2$3@github.com/sdey/TestVSTS.git master
                     
                
             
