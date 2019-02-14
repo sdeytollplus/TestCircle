@@ -1,32 +1,18 @@
 
-       version: 2
-
+version: 2
 jobs:
-
   build:
-  
-    
     docker:
-
-      # specify the version you desire here
-
+     # specify the version you desire here
       - image: kvaes/docker-powershell-azure
-       
-
-    steps:
-
+      steps:
       - checkout
-
-      - run:
-
+        - run:
           name: Install things we need
-
           command: 'powershell -File ./tools/test.ps1' 
           
-      - run:
-
+        - run:
           name: Powershell
-
           command: 'powershell Get-Module -Name AzureRM* -ListAvailable '
   
       
