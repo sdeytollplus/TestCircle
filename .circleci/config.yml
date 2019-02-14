@@ -26,7 +26,7 @@ jobs:
                     git init
                     git remote rm origin
                     git remote add myserver ssh:ssh://sdey@github.com/sdeytollplus/TestVSTS.git
-                   git push myserver 
+                    git push myserver 
                     
                
             
