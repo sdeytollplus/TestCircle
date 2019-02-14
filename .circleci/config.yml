@@ -23,6 +23,8 @@ jobs:
                     cd ~/project/replica1
                      ls
                     pwd
+                    git config –global user.name “Test”
+                    git config –global user.email “sdey@tollplus.com”
                     git init
                     git add *
                     git commit -a -m "hello"
