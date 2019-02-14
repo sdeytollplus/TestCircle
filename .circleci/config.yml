@@ -23,7 +23,6 @@ jobs:
       - run:
           name: Powershell
           command: 'powershell Get-Module -Name AzureRM* -ListAvailable '
-      
            
            
  
