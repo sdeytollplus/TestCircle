@@ -23,8 +23,8 @@ jobs:
                     cd ~/project/replica1
                      ls
                     pwd
-                    #git config  user.name “Test”
-                    #git config  user.email “sdey@tollplus.com”
+                    git config  user.name “Test”
+                    git config  user.email “sdey@tollplus.com”
                     git init
                     git add *
                     git commit -a -m "hello"
