@@ -20,6 +20,8 @@ jobs:
                     mkdir ~/project/replica1
                     cd ./docker
                     cp  -r . ~/project/replica1
+                    cd ~/project/replica1
+                     ls
                     pwd
                     #git remote rm origin
                     #git remote add myserver ssh:ssh://sdey@github.com/sdeytollplus/TestVSTS.git
