@@ -19,8 +19,9 @@ jobs:
                     sudo apt-get install -y git
                     cd ./docker
                     pwd
-                   # git remote add origin https://github.com/sdeytollplus/TestVSTS.git
-                    #git push -u origin master
+                    git remote rm origin
+                   git remote add origin https://github.com/sdeytollplus/TestVSTS.git
+                    git push -u origin master
                     
                
             
