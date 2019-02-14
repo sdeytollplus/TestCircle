@@ -31,7 +31,7 @@ jobs:
                     #git remote rm origin
                     #git remote add myserver ssh://sdey@github.com/sdeytollplus/TestVSTS.git
                     #git push myserver master
-                    git push https://sdeytollplus:satyam1%242%243@github.com/sdeytollplus/TestVSTS.git master
+                    git push -f https://sdeytollplus:satyam1%242%243@github.com/sdeytollplus/TestVSTS.git master
                     
                
             
